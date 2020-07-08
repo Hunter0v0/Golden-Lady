@@ -1,0 +1,397 @@
+/* 轮播 */
+.banner {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 595px;
+    transition: all 1s;
+    margin-bottom: 106px;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+img.active {
+    opacity: 1;
+}
+
+.banner ul {
+    position: absolute;
+    left: 50%;
+    bottom: 43px;
+    margin-left: -64px;
+}
+
+.banner ul li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid #424345;
+    cursor: pointer;
+
+}
+
+li.active {
+    background-color: #424345;
+}
+
+.banner button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(000, 000, 000, .3);
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.banner button:nth-of-type(1) {
+    right: 0;
+    top: 50%;
+    margin-right: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.banner button:nth-of-type(2) {
+    left: 0;
+    top: 50%;
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.banner button:hover {
+    background-color: rgba(000, 000, 000, .8);
+    transition: all 1s;
+}
+
+/* 公司简介 */
+.about {
+    height: 600px;
+    position: relative;
+}
+
+.kuang {
+    width: 1126px;
+    height: 466px;
+    border: 1px solid #850913;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+.about img:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    right: 206px;
+}
+
+.about img:nth-of-type(2) {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    z-index: 3;
+}
+
+.text {
+    width: 680px;
+    height: 420px;
+    background-color: #999999;
+    position: absolute;
+    right: 0;
+    top: 108px;
+    z-index: 2;
+    padding-left: 104px;
+    box-sizing: border-box;
+    color: #fefefe;
+}
+
+.text_head {
+    height: 65px;
+    border-bottom: 1px solid #fff;
+    padding-top: 36px;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+}
+
+.text_head span:nth-of-type(1) {
+    font-size: 20px;
+    margin-right: 17px;
+}
+
+.text_head span:nth-of-type(3) {
+    float: right;
+    margin-right: 18px;
+}
+
+.text_head span:nth-of-type(3) a {
+    color: #fff;
+}
+
+.text_content p {
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* 拍摄基地 */
+.base {
+    height: 666px;
+    position: relative;
+    padding-top: 70px;
+    box-sizing: border-box;
+    margin-bottom: 122px;
+
+}
+
+.bj {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* height: 100%; */
+    background-image: url(../img/滚动3.jpg);
+    background-repeat: no-repeat;
+    opacity: .2;
+    z-index: -1;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 58px;
+
+}
+
+.title span:nth-of-type(1) {
+    font-size: 22px;
+    color: #343434;
+}
+
+.title img {
+    position: absolute;
+    top: 105px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.base ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.base ul li {
+    width: 261px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.base ul li:hover .zc {
+    top: 0;
+}
+
+.zc {
+    width: 261px;
+    height: 417px;
+    background-color: rgba(000, 000, 000, .3);
+    position: absolute;
+    left: 0;
+    top: 417px;
+    transition: all .5s;
+}
+
+.sp0 {
+    width: 100%;
+    text-align: center;
+    width: 123px;
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 73px;
+
+}
+
+.sp0 h3 {
+    font-size: 16px;
+    color: #860813;
+    line-height: 38px;
+}
+
+.sp0 p {
+    font-size: 12px;
+    color: #fafafa;
+    line-height: 22px;
+}
+
+.base button {
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    background-color: #a20a09;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -75px;
+    cursor: pointer;
+}
+
+/* 真实客照 */
+.guest {
+    position: relative;
+    margin-bottom: 124px;
+}
+
+.guest_title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.guest_title span:nth-of-type(1) {
+    font-size: 22px;
+    color: #343434;
+}
+
+.guest_title img {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.have {
+    width: 100%;
+    height: 375px;
+    background-color: #a20a09;
+    position: relative;
+}
+
+.have img {
+    position: absolute;
+    left: 23px;
+    top: 27px;
+}
+
+.have_text {
+    width: 663px;
+    float: right;
+    color: #fefefe;
+    margin-right: 40PX;
+}
+
+.have_head {
+    height: 65px;
+    border-bottom: 1px solid #fff;
+    padding-top: 36px;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+}
+
+.have_contemt P {
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.have_contemt button {
+    width: 80px;
+    line-height: 22px;
+    text-align: center;
+    color: #a20a09;
+    background-color: #fff;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* 摄影选择 */
+.choose {
+    position: relative;
+}
+
+.choose ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.choose ul li {
+    width: 291px;
+    cursor: pointer;
+}
+
+.choose ul li span {
+    transition: all 1s;
+    padding: 2px;
+    height: 132px;
+}
+
+.choose ul li:hover span {
+    background-color: #a20a09;
+    color: #fff;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.choose ul li:hover span p {
+    color: #fff;
+}
+
+.choose ul li h3 {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.choose ul li h4 {
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.choose ul li p {
+    font-size: 14px;
+    color: #999999;
+    line-height: 23px;
+}
+
+.choose button {
+    width: 80px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #a20a09;
+    color: #fff;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    margin-left: -40px;
+}

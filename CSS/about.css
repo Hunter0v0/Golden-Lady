@@ -1,0 +1,93 @@
+/* 广告大图 */
+.banner img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+
+/* 页面主要内容 公司简介部分 */
+.profile {
+    margin-bottom: 18px;
+}
+
+/* 简介头部 */
+.profile_head {
+    text-align: right;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.profile_head a {
+    color: #870813;
+    margin-left: 13px;
+}
+
+/* 简介左侧导航栏 */
+.profile_nav {
+    display: inline-block;
+}
+
+.profile_nav span:nth-of-type(1) {
+    display: inline-block;
+    width: 116px;
+    line-height: 41px;
+    font-size: 24px;
+    text-align: center;
+    background-image: url(../img/about_03.png);
+    background-repeat: no-repeat;
+    margin-bottom: 9px;
+}
+
+.profile_nav span:nth-of-type(2) {
+    display: inline-block;
+    width: 113px;
+    line-height: 44px;
+    font-size: 17px;
+    color: #870813;
+    text-align: center;
+    position: relative;
+    border-left: 1px solid #666666;
+}
+
+.profile_nav span img:nth-of-type(1) {
+    position: absolute;
+    left: -5px;
+    top: 15px;
+}
+
+.profile_nav span img:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    top: 23px;
+}
+
+/* 简介右侧内容 */
+
+.profile_content {
+    width: 978px;
+    margin-top: 34px;
+}
+
+.profile_content span {
+    display: inline-block;
+    line-height: 26px;
+    border-bottom: 1px solid #870813;
+    margin-bottom: 10px;
+}
+
+.profile_content p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.profile_content img {
+    display: inline-block;
+}
+
+.profile_content img:nth-of-type(1) {
+    margin-right: 66px;
+}

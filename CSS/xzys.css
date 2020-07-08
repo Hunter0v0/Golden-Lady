@@ -1,0 +1,52 @@
+
+.xzys_head{
+    width: 100%;
+   text-align: right;
+   line-height: 22px;
+   border-bottom: 1px solid #666666;
+}
+.xzys_head span{
+    margin: 0 10px;
+}
+.xzys_head a:last-child{
+    color: #830914;
+}
+
+
+.photos_nav{
+    display: inline-block;
+}
+.photos_nav span:nth-of-type(1) {
+    display: inline-block;
+    width: 116px;
+    line-height: 41px;
+    font-size: 24px;
+    text-align: center;
+    background-image: url(../img/about_03.png);
+    background-repeat: no-repeat;
+    margin-bottom: 9px;
+}
+.photos_nav ul{
+    margin-top: 10px;
+    border-left:1px solid #666666;
+    padding-left: 10px;
+}
+.photos_nav ul li{
+    line-height: 40px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.photos_nav ul li img{
+    position: absolute;
+    right: 0;
+    top: 14px;
+}
+.photos_nav ul li.active img:nth-of-type(1){
+    left: -16px;
+}
+.photos_nav ul li.active{
+    color: #830914;
+}
+
+

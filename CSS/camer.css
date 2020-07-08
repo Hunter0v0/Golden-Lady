@@ -1,0 +1,127 @@
+.banner img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+/* 页面主体 */
+
+.camer_head{
+    width: 100%;
+   text-align: right;
+   line-height: 22px;
+   border-bottom: 1px solid #666666;
+}
+.camer_head span{
+    margin: 0 10px;
+}
+.camer_head a:last-child{
+    color: #830914;
+}
+
+.camer_nav{
+    display: inline-block;
+}
+.camer_nav span:nth-of-type(1) {
+    display: inline-block;
+    width: 116px;
+    line-height: 41px;
+    font-size: 24px;
+    text-align: center;
+    background-image: url(../img/about_03.png);
+    background-repeat: no-repeat;
+    margin-bottom: 9px;
+}
+.camer_nav span:nth-of-type(2) {
+    display: inline-block;
+    width: 113px;
+    /* height: 44px; */
+    color: #870813;
+    text-align: center;
+    position: relative;
+    border-left: 1px solid #666666;
+}
+.camer_nav h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.camer_nav h4{
+    font-size: 14px;
+    border-bottom: 1px solid #666666;
+}
+.camer_nav span img:nth-of-type(1) {
+    position: absolute;
+    left: -5px;
+    top: 15px;
+}
+
+.camer_nav span img:nth-of-type(2) {
+    position: absolute;
+    right: -5px;
+    top: 26px;
+}
+.camer_nav ul{
+    border-left: 1px solid #666666;
+    padding: 9px;
+}
+.camer_nav ul li{
+    font-size: 14px;
+    line-height: 30px;
+    color: #808080;
+
+}
+.camer_nav ol{
+    border-left: 1px solid #666666;
+    padding: 9px;
+}
+.camer_nav ol dl{
+    font-size: 18px;
+    line-height: 40px;
+    position: relative;
+}
+.camer_nav ol dl img{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.camer_content{
+    width: 840px;
+    height: 365px;
+    border: 1px solid #666666;
+    float: right;
+    margin-top: 64px;
+    position: relative;
+}
+.dc img{
+    display: inline-block;
+    position: absolute;
+    left: -36px;
+    top: -28px;
+}
+.abc{
+    position: absolute;
+    top: -36px;
+    right: 250px;
+}
+.dc{
+    width: 242px;
+    height: 344px;
+    background: #666666;
+    display: inline-block;
+    position: relative;
+    left: -60px;
+    top: -26px;
+}
+.box{
+    width: 632px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 40px;
+}
+.box p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
